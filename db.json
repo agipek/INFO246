@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "1",
+      "name": "Book",
+      "description": "Item for reading"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "2",
+      "name": "Pen",
+      "description": "Item for writing"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "3",
+      "name": "Paint brush",
+      "description": "Item for painting"
+    }
+  ],
+  "users": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "1",
+      "name": "Santa Claus",
+      "description": "Magical person who brings presents at Christmas",
+      "itemId": "1"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "2",
+      "name": "Tooth Fairy",
+      "description": "Magical person who leaves money in exchange for teeth",
+      "itemId": "1"
+    }
+  ],
+  "collection": {
+    "@context": "https://schema.org/",
+    "@type": "Collection",
+    "name": "agatatajchert's API",
+    "creator": "agipek",
+    "about": "A collection of random things",
+    "url": "https://www.agipek.info"
+  }
+}
